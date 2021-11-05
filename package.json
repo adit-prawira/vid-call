@@ -1,0 +1,26 @@
+{
+    "name": "vid-call",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "client": "npm start --prefix client",
+        "server": "npm start --prefix server",
+        "start": "concurrently \"yarn server\" \"yarn client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adit-prawira/vid-call.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adit-prawira/vid-call/issues"
+    },
+    "homepage": "https://github.com/adit-prawira/vid-call#readme",
+    "dependencies": {
+        "concurrently": "^6.3.0"
+    }
+}
